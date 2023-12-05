@@ -5,15 +5,15 @@ background-color:rgb(18, 29, 37);
 }
 
 
-        /* Section pour la partie entete */
-        #topTout{
-            display:flex;
-            flex-wrap:nowrap;
-            flex-direction:row;
-            justify-content:left;
+/* Section pour la partie entete */
+#topTout{
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+justify-content:left;
 
-            padding:2%;
-            margin-left:8%;
+padding:2%;
+margin-left:8%;
         }
 
 
