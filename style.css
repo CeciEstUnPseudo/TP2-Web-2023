@@ -12,6 +12,7 @@ flex-wrap:nowrap;
 flex-direction:row;
 justify-content:left;
 
+width:50%;
 padding:2%;
 margin-left:8%;
 }
