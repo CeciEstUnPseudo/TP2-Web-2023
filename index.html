@@ -4,36 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP2 - Émile Litalien </title>
-    <link rel="stylesheet" type"text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
 </head>
 <body>
+<!-- Section du tout (General)-->
     <section id="general">
 
+
+<!-- Section de l'entete -->
         <section id="topTout">
+<!-- Entete: Icon -->
             <ion-icon id="topIcon" name="business-outline"></ion-icon>
+
+<!-- Entete: Zone du texte (Titre, menus, etc.) -->
             <section id="topTexte">
+
+<!-- Entete: Zone du titre -->
                 <section id="topTitreSection">
                     <h1 id="topTitre">Ville de Matrial</h1>
                 </section>
+
+<!-- Entete: Zone des menus -->
                 <section id="topMenus">
-                    <a id="menuAccueil"  class="menu" href="#imageGrandeTexte">Accueil</a>
-                    <a id="menuArticles" class="menu" href="#articles">Articles</a>
-                    <a id="menuVideo" class="menu" href="#video">Video</a>
-                    <a id="menuGalerie" class="menu" href="#imageGalerie">Galerie</a>
-                    <a id="menuInscription" class="menu" href="#formulaire">Inscription</a>
-                    <a id="menuTableau" class="menu" href="#tableau">Tableau</a>
-                    <a id="menuContacts" class="menu" href="#contact">Contacts</a>
+                    <a id="menuAccueil"  class="menu" href="#imageGrandeTexte">ACCUEIL</a>
+                    <a id="menuArticles" class="menu" href="#articles">ARTICLES</a>
+                    <a id="menuVideo" class="menu" href="#video">VIDEO</a>
+                    <a id="menuGalerie" class="menu" href="#galerie">GALERIE</a>
+                    <a id="menuInscription" class="menu" href="#formulaire">INSCRIPTION</a>
+                    <a id="menuTableau" class="menu" href="#tableau">TABLEAU</a>
+                    <a id="menuContacts" class="menu" href="#contact">CONTACTS</a>
                 </section>
             </section>
         </section>
 
+
+<!-- Section de l'accueil (Grosse image avec texte par-dessus) -->
         <section id="accueil">
+
+
+<!-- Accueil: L'image-->
 
             <img id="accueilImage" src="images/ville.jpg">
 
+<!-- Accueil: Degrader (Les 2) -->
             <section id="degraderTop"></section>
             <section id="degraderBottom">
 
+<!-- Accueil: Toutes les bandes de texte -->
             <section id="accueilTexteGeneral">
                 <section id="accueilTexte" class="accueilTexteSection">
                     <p class="accueilFont">TP2: 582-1W1 Mise en page Web</p>
@@ -48,7 +66,7 @@
                     <p class="accueilFont">Ville de Matrial</p>
                 </section>
                 <section id="accueilTexte" class="accueilTexteSection">
-                    <p class="accueilFont">LIEN PAGE GITHUB</p>
+                    <a class="accueilFont" href="https://ceciestunpseudo.github.io/TP2-Web-2023/">Page GitHub</a>
                 </section>
                 <section id="accueilTexte" class="accueilTexteSection">
                     <p class="accueilFont">Émile Litalien - Automne 2023</p>
@@ -58,12 +76,18 @@
             </section>
         </section>
 
+
+<!-- Section des articles -->
         <section id="articles">
+
+<!-- Articles: Boite de gauche -->
             <section id="articlesBoite">
-                <h2 id="articlesTitre">
-                    Élections 3052
-                </h2>
-                <p id="articlesTexte">
+
+<!-- Articles: Titre boite de gauche-->
+                <h2 id="articlesTitre"> Élections 3052 </h2>
+
+<!-- Articles: Paragraphes boite de gauche -->
+                <p id="articlesTexteParagraphe">
                     La période de vote pour les élections 3052 auront lieu entre le 20 et le 26 Mai.
                 </p>
 
@@ -76,11 +100,15 @@
                 </p>
                 
             </section>
+
+<!-- Articles: Boite de droite -->
             <section id="articlesBoite">
-                <h2 id="articlesTitre">
-                    District Ferium En Quarantaine
-                </h2>
-                <p id="articlesTexte">
+
+<!-- Articles: Titre boite de droite -->
+                <h2 id="articlesTitre">District Ferium En Quarantaine</h2>
+
+<!-- Articles: Paragraphes boite de droite -->
+                <p id="articlesTexteParagraphe">
                     Attention Matrialiés et Matrialières, ceci est un avertissement de la mise en quarantaine du District Ferium de la 40ème à la 93ème avenue du à une explosion chimique. 
                 </p>
                 <p id="articlesTexteParagraphe">
@@ -89,15 +117,26 @@
             </section>
         </section>
 
+
+<!-- Section de la video -->
         <section id="video">
+
+<!-- Video: La boite generale -->
             <section id="sectionVideoGeneral">
+
+<!-- Video: La boite de la video -->
                 <section id="sectionVideo">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sS_I1ugzkXw?si=FLrzThMclym0zWpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- Video: La video (Qui fait 100% de son conteneur) -->
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sS_I1ugzkXw?si=FLrzThMclym0zWpa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
+
+<!-- Video: Tout le texte de droite-->
                 <section id="sectionVideoTexte">
-                    <h2 id="sectionVideoTexteTitre">
-                        Avant-vu du nouveau district: Zeena. 
-                    </h2>
+
+<!-- Video: Titre -->
+                    <h2 id="sectionVideoTexteTitre">Avant-vu du nouveau district: Zeena </h2>
+
+<!-- Video: Les paragraphes-->
                     <p id="sectionVideoTexteParagraphe">
                         Le Conseil de Matrial est heureux de vous présenté le plus récent des districts, Zeena. Construit avec les mots luxe et sécurité en tête, ce nouveau district résidentiel sera le joyaux de Matrial pendant les années à venir.
                     </p>
@@ -119,33 +158,217 @@
 
         </section>
         
-        <section id="imageGalerie">
+
+<!-- Section de la galerie d'images--> 
+        <section id="galerie">
+
+<!-- Galerie: Titre --> 
+            <h2 id="galerieTitre"> Quartiers de Matrial </h2>
+
+<!-- Galerie: Images --> 
+            <section id="galerieContenu">
+                <img id="galerieImages" src="images/ville1.png" alt="Quartier Zeena" title="Quartier Zeena">
+                <img id="galerieImages" src="images/ville2.webp" alt="Quartier Trifo" title="Quartier Trifo">
+                <img id="galerieImages" src="images/ville3.jpg" alt="Quartier Heywood" title="Quartier Heywood">
+                <img id="galerieImages" src="images/ville4.jpg" alt="Quartier Finly" title="Quartier Finly">
+                <img id="galerieImages" src="images/ville5.webp" alt="Quartier Ferium" title="Quartier Ferium">
+            </section>
         </section>
 
+
+<!-- Section du tableau & Formulaire --> 
         <section id="tableauFormulaire">
-            <section id="tableau">
+
+<!-- Section du tableau -->
+            <section id="tableauSection">
+
+
+<!-- Tableau: Le tableau -->
+                <table id="tableau">
+
+<!-- Tableau:  Titre du tableau -->
+                    <caption id="tableauTitre"> Habitants de Matrial </caption>
+
+
+<!-- Tableau: Header (Ligne qui identifies les autres) -->
+                    <tr id="tableauHeader">
+                        <th>Classement</th>
+                        <th>Sexe</th>
+                        <th>Quartier</th>
+                        <th>Race</th>
+                        <th>Classe</th>
+                    </tr>
+
+
+<!-- Tableau: Autres lignes -->
+                    <tr id="tableauLignes">
+                        <td>1</td>
+                        <td>Homme</td>
+                        <td>Heywood</td>
+                        <td>Zoglodite</td>
+                        <td>Moyenne</td>
+                    </tr>
+
+                    <tr id="tableauLignes">
+                        <td>2</td>
+                        <td>Homme</td>
+                        <td>Finly</td>
+                        <td>Humain</td>
+                        <td>Pauvre</td>
+                    </tr>
+
+                    <tr id="tableauLignes">
+                        <td>3</td>
+                        <td>Femme</td>
+                        <td>Heywood</td>
+                        <td>Zoglodite</td>
+                        <td>Moyenne</td>
+                    </tr>
+
+                    <tr id="tableauLignes">
+                        <td>4</td>
+                        <td>Homme</td>
+                        <td>Trifo</td>
+                        <td>Oglossite</td>
+                        <td>Haute</td>
+                    </tr>
+
+                    <tr id="tableauLignes">
+                        <td>5</td>
+                        <td>Homme</td>
+                        <td>Ferium</td>
+                        <td>Reinpur</td>
+                        <td>Pauvre</td>
+                    </tr>
+
+                </table>
+            </section>
+
+<!-- Section du formulaire -->
+            <section id="formulaireSection">
+
+
+<!-- Formulaire: Titre Identification -->
+                <h2 id="formulaireTitre"> Identification </h2>
+                
+<!-- Formulaire: Formulaires Identification  -->
+                <form id="formulaire">
+                    <label id="formulaireLabel" for="nom">Nom:</label>
+                    <input id="formulaireChamp" type="text" name="nom">
+
+                    <label id="formulaireLabel" for="numero">Numéro d'identité</label>
+                    <input id="formulaireChamp" type="number" name="numero">
+
+                    <label id="formulaireLabel" for="email">E-Mail:</label>
+                    <input id="formulaireChamp" type="email" name="email" multiple>
+                </form>
+
+<!-- Formulaire: Titre Information -->
+                <h2 id="formulaireTitre"> Information </h2>
+
+<!-- Formulaire: Formulaires Identification  -->
+                <section id="formulaire">
+
+<!-- Formulaire Radio (Separer des autres car le flexbox faisait en sorte que les labels etaient sur une autre ligne)-->
+                <form id="formulaireInformation1">
+                    <p id="formulaireLabel" >Sexe: </p>
+                    <input type="radio" name="genre" value="Homme">
+                    <label for="genre">Homme</label> <br>
+                    <input type="radio" name="genre" value="Femme">
+                    <label for="genre">Femme</label>
+                </form>
+
+                <form id="formulaireInformation2">
+                    <label id="formulaireLabel" for="age">Age:</label>
+                    <input id="formulaireChamp" type="number" name="age">
+                
+                    <label id="formulaireLabel" for="date">Date:</label>
+                    <input id="formulaireChamp" type="date" name="date">
+                
+                    <label id="formulaireLabel" for="race">Race:</label>
+                    <input id="formulaireChamp" type="text" name="race">
+                
+                    <label id="formulaireLabel" for="quartier">Quartier:</label>
+                    <select id="formulaireChamp" name="quartier">
+                        <option value="Zeena">Zeena</option>
+                        <option value="Trifo">Trifo</option>
+                        <option value="Heywood">Heywood</option>
+                        <option value="Finly">Finly</option>
+                        <option value="Ferium">Ferium</option>
+                    </select>
+
+                    <label id="formulaireLabel" for="classe">Classe:</label>
+                    <select id="formulaireChamp" name="classe">
+                        <option value="Pauvre">Pauvre</option>
+                        <option value="Moyenne">Moyenne</option>
+                        <option value="Haute">Haute</option>
+                        <option value="Royal">Royal</option>
+                    </select>
+                </form>
+
+                </section>
+
+
+<!-- Formulaire: Boutons -->
+                <input id="formulaireBouton" type="submit" value="Soumettre">
+                <input id="formulaireBouton" type="reset" value="Annuler">
+
 
             </section>
-            <section id="formulaire">
 
-            </section>
         </section>
 
+
+<!-- Section du pied de page (Footer)-->
         <section id="piedPage">
+
+
+<!-- Pied de page: Les liens importants (A gauche)-->
             <section id="liens">
+                <h3 id="textePiedPage">Liens</h3>
+                <a id="textePiedPage"  class="menuPiedPage" href="https://github.com/CeciEstUnPseudo">GitHub</a>
+                <a id="textePiedPage"  class="menuPiedPage" href="https://www.w3schools.com/">w3schools</a>
+                <a id="textePiedPage"  class="menuPiedPage" href="https://developer.mozilla.org/en-US/docs/Learn/HTML">mdn web docs</a>
+            </section>
+
+<!-- Pied de page: Informations (Centre) -->
+            <section id="information">
+                <h3 id="textePiedPage">Information</h3>
+                <a id="textePiedPage"  class="menuPiedPage" href="https://www.cmaisonneuve.qc.ca">Cegep de Maisonneneuve</a>
+                <p id="textePiedPage">582-1W1-MA MISE EN PAGE WEB</p>
+                <p id="textePiedPage">Avis de Confidentialité | Privacy Notice</p>
 
             </section>
-            <section id="contact">
 
+<!-- Pied de page: Reseaux (Droite) -->
+            <section id="reseaux">
+
+                <h3 id="menuPiedPage">Nos Reseaux</h3>
+
+<!-- Pied de page: Reseaux (Droite) Facebook -->
+                <section id="reseauxSection">
+                    <img id="reseauxImage" src="images/facebook.png">
+                    <a id="menuPiedPage"  class="menuPiedPage" href="https://www.facebook.com/CollegeMaisonneuve/"> Facebook </a>
+                </section>
+
+<!-- Pied de page: Reseaux (Droite) Instagram -->
+                <section id="reseauxSection">
+                    <img id="reseauxImage" src="images/instagram.webp">
+                    <a id="menuPiedPage"  class="menuPiedPage" href="https://www.instagram.com/collegemaisonneuve/?hl=en"> Instagram </a>
+                </section>
+
+<!-- Pied de page: Reseaux (Droite) Twitter -->
+                <section id="reseauxSection">
+                    <img id="reseauxImage" src="images/twitter.png">
+                    <a id="menuPiedPage"  class="menuPiedPage" href="https://twitter.com/cdemaisonneuve?lang=en"> Twitter </a>
+                </section>
             </section>
-            <section id="reseaux"></section>
         </section>
 
     </section>
 
 
-
-
+<!-- Section juste pour les outils (Dans ce cas juste iconicons)-->
     <section id="Utilities">
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
